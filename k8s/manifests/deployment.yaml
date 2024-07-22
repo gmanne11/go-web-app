@@ -20,3 +20,4 @@ spec:
         image: vivekmanne/go-web-app:v1
         ports:
         - containerPort: 8080
+        imagePullPolicy: Always

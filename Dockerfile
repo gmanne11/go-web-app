@@ -18,7 +18,7 @@ RUN go mod download
 COPY . .
 
 # Build the application
-RUN go build -o main .
+RUN GOARCH=amd64 go build -o main .
 
 #######################################################
 # Reduce the image size using multi-stage builds
