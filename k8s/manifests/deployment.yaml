@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: vivekmanne/go-web-app
+        image: vivekmanne/go-web-app:v1
         ports:
         - containerPort: 8080
